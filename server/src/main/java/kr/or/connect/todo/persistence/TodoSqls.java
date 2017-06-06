@@ -14,7 +14,7 @@ public class TodoSqls {
 			"DELETE FROM todo WHERE id = :id";
 	
 	static final String UPDATE = "UPDATE todo SET\n"
-										+ "todo = :text,"
-										+ "completed = :done\n"
+										+ "text = :text,"
+										+ "done = :done\n"
 										+ "WHERE id = :id";
 }
